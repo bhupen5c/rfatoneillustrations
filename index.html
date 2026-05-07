@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="At One With Nature Art by Rosa Fatone — pastel and mixed-media illustrations celebrating Australia's native flora and fauna." />
+  <title>R.Fatone Illustrations — At One With Nature</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@300;400;500;600;700&family=Caveat:wght@400;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Custom cursor -->
+  <div class="cursor-dot" aria-hidden="true"></div>
+  <div class="cursor-ring" aria-hidden="true"></div>
+
+  <!-- Scroll progress bar -->
+  <div class="scroll-progress" aria-hidden="true"></div>
+
+  <!-- Navigation -->
+  <header class="nav" id="nav">
+    <div class="nav__inner">
+      <a href="#top" class="nav__brand" aria-label="R.Fatone Illustrations home">
+        <span class="nav__brand-mark">R.F</span>
+        <span class="nav__brand-text">
+          <span class="nav__brand-name">R.Fatone Illustrations</span>
+          <span class="nav__brand-tag">At One With Nature</span>
+        </span>
+      </a>
+
+      <nav class="nav__menu" aria-label="Primary">
+        <a href="#flora-fauna">Australian Flora &amp; Fauna</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#reflections">Monthly Reflections</a>
+        <a href="#giving">Giving</a>
+        <a href="#shop">Shop</a>
+      </nav>
+
+      <div class="nav__actions">
+        <button class="cart-btn" aria-label="Cart, 0 items">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/>
+            <line x1="3" y1="6" x2="21" y2="6"/>
+            <path d="M16 10a4 4 0 0 1-8 0"/>
+          </svg>
+          <span class="cart-btn__count">0</span>
+        </button>
+        <button class="nav__toggle" aria-label="Open menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile menu drawer -->
+  <div class="mobile-menu" aria-hidden="true">
+    <a href="#flora-fauna">Australian Flora &amp; Fauna</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#reflections">Monthly Reflections</a>
+    <a href="#giving">Giving</a>
+    <a href="#shop">Shop</a>
+  </div>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero__noise" aria-hidden="true"></div>
+      <div class="hero__inner">
+        <div class="hero__eyebrow">
+          <span class="dot"></span>
+          <span>Art by Rosa Fatone · Australia</span>
+        </div>
+
+        <h1 class="hero__title">
+          <span class="line"><span>At</span> <span>One</span></span>
+          <span class="line"><span class="italic">With</span> <span>Nature</span></span>
+        </h1>
+
+        <p class="hero__lede">
+          A lifelong love of animals and the land they call home — translated into
+          pastel and mixed-media illustrations that celebrate Australia's native species,
+          from the smallest <em>bettong</em> to the boldest <em>cockatoo</em>.
+        </p>
+
+        <div class="hero__cta">
+          <a href="#flora-fauna" class="btn btn--primary">
+            Explore the collection
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+          </a>
+          <a href="#giving" class="btn btn--ghost">Help save our species</a>
+        </div>
+
+        <div class="hero__meta">
+          <div>
+            <div class="hero__meta-num">8</div>
+            <div class="hero__meta-label">States &amp; Territories</div>
+          </div>
+          <div>
+            <div class="hero__meta-num">100<span>%</span></div>
+            <div class="hero__meta-label">Soft pastel on Stonehenge</div>
+          </div>
+          <div>
+            <div class="hero__meta-num">1</div>
+            <div class="hero__meta-label">Children's book published</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Floating animated illustrations -->
+      <div class="hero__art" aria-hidden="true">
+        <svg class="leaf leaf--1" viewBox="0 0 100 140"><path d="M50 5 C 20 30 5 70 50 135 C 95 70 80 30 50 5 Z M50 5 L50 135" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+        <svg class="leaf leaf--2" viewBox="0 0 100 140"><path d="M50 5 C 20 30 5 70 50 135 C 95 70 80 30 50 5 Z M50 5 L50 135" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+        <svg class="leaf leaf--3" viewBox="0 0 100 140"><path d="M50 5 C 20 30 5 70 50 135 C 95 70 80 30 50 5 Z M50 5 L50 135" fill="none" stroke="currentColor" stroke-width="1.5"/></svg>
+        <div class="orb orb--1"></div>
+        <div class="orb orb--2"></div>
+      </div>
+
+      <!-- Scroll cue -->
+      <div class="hero__scroll">
+        <span>Scroll</span>
+        <span class="bar"></span>
+      </div>
+    </section>
+
+    <!-- TICKER -->
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker__track">
+        <span>Wombat</span><span>·</span>
+        <span>Eastern Quoll</span><span>·</span>
+        <span>Cassowary</span><span>·</span>
+        <span>Pink Robin</span><span>·</span>
+        <span>Echidna</span><span>·</span>
+        <span>Mountain Pygmy-Possum</span><span>·</span>
+        <span>Mary River Turtle</span><span>·</span>
+        <span>Leadbeater's Possum</span><span>·</span>
+        <span>Wollemi Pine</span><span>·</span>
+        <span>Bettong</span><span>·</span>
+        <span>Cockatoo</span><span>·</span>
+        <!-- duplicate for infinite scroll -->
+        <span>Wombat</span><span>·</span>
+        <span>Eastern Quoll</span><span>·</span>
+        <span>Cassowary</span><span>·</span>
+        <span>Pink Robin</span><span>·</span>
+        <span>Echidna</span><span>·</span>
+        <span>Mountain Pygmy-Possum</span><span>·</span>
+        <span>Mary River Turtle</span><span>·</span>
+        <span>Leadbeater's Possum</span><span>·</span>
+        <span>Wollemi Pine</span><span>·</span>
+        <span>Bettong</span><span>·</span>
+        <span>Cockatoo</span><span>·</span>
+      </div>
+    </div>
+
+    <!-- ARTIST STATEMENT -->
+    <section class="statement" id="statement">
+      <div class="container">
+        <div class="statement__grid">
+          <aside class="statement__aside">
+            <span class="kicker">01 — Statement</span>
+            <div class="signature">Rosa Fatone</div>
+          </aside>
+
+          <div class="statement__body">
+            <p class="statement__quote reveal">
+              <span class="quote-mark">&ldquo;</span>
+              At One With Nature Art was born from a lifelong love of animals and
+              the land they call home. Each illustration is a quiet conversation —
+              a reminder that we share this world, not rule it.
+            </p>
+            <p class="statement__text reveal">
+              Through detailed pastel and mixed-media artworks, I celebrate
+              Australia's native species — from the smallest <em>bettong</em> to
+              the boldest <em>cockatoo</em>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ACKNOWLEDGEMENT -->
+    <section class="acknowledge">
+      <div class="container">
+        <div class="acknowledge__inner reveal">
+          <span class="kicker">Acknowledgement of Country</span>
+          <p>
+            In the spirit of reconciliation, R.Fatone Illustrations acknowledges the
+            <strong>Traditional Custodians of the country</strong> throughout Australia
+            and their connections to land, sea, and community.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- AUSTRALIA 2 COLLECTION -->
+    <section class="collection" id="flora-fauna">
+      <div class="container">
+        <header class="section-head">
+          <span class="kicker">02 — Australia 2 Collection</span>
+          <h2 class="section-title">
+            Endangered species, <span class="italic">portrayed</span> in soft pastel.
+          </h2>
+          <p class="section-lede">
+            A series of artworks portraying endangered species across Australia's
+            states and territories — each rendered in soft pastels on Stonehenge paper.
+          </p>
+        </header>
+
+        <div class="works">
+          <!-- NSW 2 -->
+          <article class="work reveal" data-tilt>
+            <div class="work__media">
+              <div class="work__art work__art--nsw">
+                <svg viewBox="0 0 400 500" preserveAspectRatio="xMidYMid slice">
+                  <defs>
+                    <linearGradient id="g-nsw" x1="0" y1="0" x2="1" y2="1">
+                      <stop offset="0%" stop-color="#d8c2a3"/>
+                      <stop offset="100%" stop-color="#8b6f4e"/>
+                    </linearGradient>
+                  </defs>
+                  <rect width="400" height="500" fill="url(#g-nsw)"/>
+                  <!-- Mountain silhouette -->
+                  <path d="M0 380 L80 280 L140 320 L220 220 L300 290 L400 240 L400 500 L0 500 Z" fill="rgba(60,40,25,.45)"/>
+                  <path d="M0 420 L60 360 L140 400 L210 350 L290 390 L400 360 L400 500 L0 500 Z" fill="rgba(40,25,15,.55)"/>
+                  <!-- Waterfall -->
+                  <rect x="190" y="220" width="20" height="170" fill="rgba(255,255,255,.35)"/>
+                  <!-- Wombat silhouette -->
+                  <ellipse cx="120" cy="450" rx="50" ry="25" fill="rgba(40,25,15,.85)"/>
+                  <circle cx="80" cy="438" r="20" fill="rgba(40,25,15,.85)"/>
+                  <!-- Bird -->
+                  <path d="M280 180 q 10 -10 20 0 q 10 -10 20 0" fill="none" stroke="rgba(40,25,15,.7)" stroke-width="3"/>
+                </svg>
+              </div>
+              <div class="work__badge">NSW · 02</div>
+            </div>
+
+            <div class="work__body">
+              <div class="work__num">01</div>
+              <h3 class="work__title">The Wonders of <span class="italic">New South Wales</span></h3>
+              <p class="work__desc">
+                Wombat, mountain pygmy-possum, red-capped robin, bearded orchids,
+                and a Blue Mountains waterfall.
+              </p>
+              <dl class="work__meta">
+                <div><dt>Medium</dt><dd>Soft pastels on Stonehenge</dd></div>
+                <div><dt>Size</dt><dd>A2 original</dd></div>
+                <div><dt>Available</dt><dd>Fine art prints A4 – A2</dd></div>
+              </dl>
+            </div>
+          </article>
+
+          <!-- TAS 2 -->
+          <article class="work reveal" data-tilt>
+            <div class="work__media">
+              <div class="work__art work__art--tas">
+                <svg viewBox="0 0 400 500" preserveAspectRatio="xMidYMid slice">
+                  <defs>
+                    <linearGradient id="g-tas" x1="0" y1="0" x2="0" y2="1">
+                      <stop offset="0%" stop-color="#c5b59a"/>
+                      <stop offset="100%" stop-color="#5d4a35"/>
+                    </linearGradient>
+                  </defs>
+                  <rect width="400" height="500" fill="url(#g-tas)"/>
+                  <!-- Forest -->
+                  <path d="M0 400 q 80 -80 160 -10 q 80 -70 160 0 q 60 -40 80 -20 L 400 500 L 0 500 Z" fill="rgba(35,25,15,.65)"/>
+                  <!-- Russell falls -->
+                  <path d="M180 180 L 220 180 L 240 350 L 160 350 Z" fill="rgba(255,255,255,.25)"/>
+                  <!-- Devil silhouette -->
+                  <ellipse cx="290" cy="440" rx="40" ry="22" fill="rgba(20,15,10,.9)"/>
+                  <path d="M260 425 q 10 -15 25 -10 l 5 12 z" fill="rgba(20,15,10,.9)"/>
+                  <!-- Pink robin spot -->
+                  <circle cx="100" cy="200" r="12" fill="#e98a7c"/>
+                  <circle cx="100" cy="200" r="6" fill="rgba(20,15,10,.8)"/>
+                </svg>
+              </div>
+              <div class="work__badge">TAS · 02</div>
+            </div>
+
+            <div class="work__body">
+              <div class="work__num">02</div>
+              <h3 class="work__title">Whispers of <span class="italic">Tasmania</span></h3>
+              <p class="work__desc">
+                Eastern quoll, eastern bandicoot, echidna, pink robin, Tasmanian
+                devil, and the cascade of Russell Falls.
+              </p>
+              <dl class="work__meta">
+                <div><dt>Medium</dt><dd>Soft pastels on Stonehenge</dd></div>
+                <div><dt>Size</dt><dd>A2 original</dd></div>
+                <div><dt>Available</dt><dd>Fine art prints A4 – A2</dd></div>
+              </dl>
+            </div>
+          </article>
+
+          <!-- QLD 2 -->
+          <article class="work reveal" data-tilt>
+            <div class="work__media">
+              <div class="work__art work__art--qld">
+                <svg viewBox="0 0 400 500" preserveAspectRatio="xMidYMid slice">
+                  <defs>
+                    <linearGradient id="g-qld" x1="0" y1="0" x2="1" y2="1">
+                      <stop offset="0%" stop-color="#e8c896"/>
+                      <stop offset="100%" stop-color="#7a4d2c"/>
+                    </linearGradient>
+                  </defs>
+                  <rect width="400" height="500" fill="url(#g-qld)"/>
+                  <!-- Sun -->
+                  <circle cx="320" cy="120" r="55" fill="rgba(255,220,160,.65)"/>
+                  <!-- Foliage -->
+                  <path d="M0 350 q 60 -70 120 -20 q 70 -80 140 -10 q 70 -50 140 -10 L 400 500 L 0 500 Z" fill="rgba(35,20,10,.65)"/>
+                  <!-- Cassowary -->
+                  <ellipse cx="160" cy="430" rx="35" ry="55" fill="rgba(20,15,10,.9)"/>
+                  <ellipse cx="160" cy="360" rx="20" ry="25" fill="rgba(20,15,10,.9)"/>
+                  <path d="M155 340 q 5 -25 15 -5" stroke="#e98a7c" stroke-width="6" fill="none"/>
+                  <line x1="150" y1="480" x2="150" y2="500" stroke="rgba(20,15,10,.9)" stroke-width="4"/>
+                  <line x1="170" y1="480" x2="170" y2="500" stroke="rgba(20,15,10,.9)" stroke-width="4"/>
+                  <!-- Frog -->
+                  <ellipse cx="60" cy="450" rx="18" ry="12" fill="rgba(50,80,40,.9)"/>
+                </svg>
+              </div>
+              <div class="work__badge">QLD · 02</div>
+            </div>
+
+            <div class="work__body">
+              <div class="work__num">03</div>
+              <h3 class="work__title">Guardians of <span class="italic">Queensland</span></h3>
+              <p class="work__desc">
+                Mary River turtle, brush-tailed rock-wallaby, Wallum sedge frog,
+                red goshawk, and the southern cassowary.
+              </p>
+              <dl class="work__meta">
+                <div><dt>Medium</dt><dd>Soft pastels on Stonehenge</dd></div>
+                <div><dt>Size</dt><dd>A2 original</dd></div>
+                <div><dt>Available</dt><dd>Fine art prints A4 – A2</dd></div>
+              </dl>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- AUSTRALIA 1 SERIES -->
+    <section class="series" id="portfolio">
+      <div class="container">
+        <header class="section-head section-head--center">
+          <span class="kicker">03 — Australia 1 Series</span>
+          <h2 class="section-title">A continent, in <span class="italic">eight</span> chapters.</h2>
+        </header>
+
+        <ul class="series__list">
+          <li class="series__item reveal" style="--i:0">
+            <span class="series__num">i</span>
+            <span class="series__name">Australian Capital Territory</span>
+            <span class="series__line"></span>
+          </li>
+          <li class="series__item reveal" style="--i:1">
+            <span class="series__num">ii</span>
+            <span class="series__name">New South Wales</span>
+            <span class="series__line"></span>
+          </li>
+          <li class="series__item reveal" style="--i:2">
+            <span class="series__num">iii</span>
+            <span class="series__name">Victoria</span>
+            <span class="series__line"></span>
+          </li>
+          <li class="series__item reveal" style="--i:3">
+            <span class="series__num">iv</span>
+            <span class="series__name">South Australia</span>
+            <span class="series__line"></span>
+          </li>
+          <li class="series__item reveal" style="--i:4">
+            <span class="series__num">v</span>
+            <span class="series__name">Western Australia</span>
+            <span class="series__line"></span>
+          </li>
+          <li class="series__item reveal" style="--i:5">
+            <span class="series__num">vi</span>
+            <span class="series__name">Northern Territory</span>
+            <span class="series__line"></span>
+          </li>
+          <li class="series__item reveal" style="--i:6">
+            <span class="series__num">vii</span>
+            <span class="series__name">Tasmania</span>
+            <span class="series__line"></span>
+          </li>
+          <li class="series__item reveal" style="--i:7">
+            <span class="series__num">viii</span>
+            <span class="series__name">Queensland</span>
+            <span class="series__line"></span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CONSERVATION -->
+    <section class="conservation" id="reflections">
+      <div class="container">
+        <div class="conservation__grid">
+          <div class="conservation__copy">
+            <span class="kicker">04 — Conservation</span>
+            <h2 class="section-title">
+              Every hectare cleared <span class="italic">chips away</span> at
+              ecosystems we depend on.
+            </h2>
+            <p class="reveal">
+              Australia's unique flora and fauna are under serious threat from the
+              ongoing loss of native habitats. Every hectare of forest cleared chips
+              away at the delicate ecosystems that countless species depend on for survival.
+            </p>
+            <p class="reveal">
+              My illustrations aim to shed light on these critical issues, using
+              innovative visual storytelling to connect people with the beauty and
+              fragility of Australia's natural heritage.
+            </p>
+            <div class="tags">
+              <span class="tag">Leadbeater's possum</span>
+              <span class="tag">Wollemi pine</span>
+            </div>
+          </div>
+
+          <aside class="conservation__quote reveal">
+            <svg class="big-quote" viewBox="0 0 100 100" aria-hidden="true">
+              <text x="0" y="80" font-family="Fraunces" font-size="120" font-weight="600">&ldquo;</text>
+            </svg>
+            <blockquote>
+              The greatness of a nation can be judged by the way its animals are treated.
+            </blockquote>
+            <cite>— Mahatma Gandhi</cite>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <!-- BOOK -->
+    <section class="book" id="book">
+      <div class="container">
+        <div class="book__grid">
+          <div class="book__visual reveal">
+            <div class="book__cover">
+              <div class="book__cover-front">
+                <div class="book__cover-inner">
+                  <div class="book__cover-eyebrow">A Children's Book</div>
+                  <div class="book__cover-title">A Quolls<br/>Migration</div>
+                  <div class="book__cover-art">
+                    <svg viewBox="0 0 100 80">
+                      <ellipse cx="50" cy="50" rx="30" ry="18" fill="#3a2818"/>
+                      <circle cx="35" cy="38" r="12" fill="#3a2818"/>
+                      <circle cx="32" cy="36" r="2" fill="#fff"/>
+                      <circle cx="62" cy="42" r="2" fill="#f5f1e8"/>
+                      <circle cx="55" cy="48" r="1.5" fill="#f5f1e8"/>
+                      <circle cx="68" cy="55" r="1.5" fill="#f5f1e8"/>
+                      <circle cx="48" cy="58" r="1.5" fill="#f5f1e8"/>
+                    </svg>
+                  </div>
+                  <div class="book__cover-author">Rosa Fatone</div>
+                </div>
+              </div>
+              <div class="book__cover-spine"></div>
+            </div>
+          </div>
+
+          <div class="book__copy">
+            <span class="kicker">05 — Published Work</span>
+            <h2 class="section-title">
+              <span class="italic">A Quolls</span> Migration
+            </h2>
+            <p class="reveal">
+              The beautifully illustrated tale follows the journey of a family of quolls
+              as they face the realities of human development and the destruction of
+              their natural habitat. But with the help of some unlikely allies, they
+              can escape danger and find a new home that provides them with safety
+              and sanctuary.
+            </p>
+            <p class="reveal">
+              The book brings focus to the endangered <strong>Spotted-tailed Quolls</strong>
+              and the impacts of habitat disruption.
+            </p>
+            <a href="#shop" class="btn btn--primary">
+              Available in the shop
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MEDIA SHOWCASE — Parallax gallery -->
+    <section class="showcase" id="gallery">
+      <div class="container">
+        <header class="section-head">
+          <span class="kicker">Visual journal</span>
+          <h2 class="section-title">
+            Studio &amp; <span class="italic">field</span> moments.
+          </h2>
+          <p class="section-lede">
+            Glimpses of the process — pastels on Stonehenge, the species that inspire each piece,
+            and the wild Australian landscapes that hold them.
+          </p>
+        </header>
+
+        <!-- Bento grid layout -->
+        <div class="showcase__grid">
+          <!-- Large feature: video tile -->
+          <figure class="feature feature--lg reveal">
+            <div class="feature__media">
+              <div class="feature__art" style="background:linear-gradient(135deg,#a87a4d,#3a2818);">
+                <svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+                  <defs>
+                    <radialGradient id="sun" cx=".7" cy=".3" r=".5">
+                      <stop offset="0%" stop-color="#f5d295" stop-opacity=".8"/>
+                      <stop offset="100%" stop-color="transparent"/>
+                    </radialGradient>
+                  </defs>
+                  <rect width="400" height="300" fill="url(#sun)"/>
+                  <path d="M0 230 q 50 -40 100 -10 q 60 -50 120 -15 q 80 -40 180 -5 L 400 300 L 0 300 Z" fill="rgba(20,15,10,.8)"/>
+                  <path d="M0 260 q 70 -30 140 0 q 70 -25 140 0 q 60 -10 120 -5 L 400 300 L 0 300 Z" fill="rgba(30,20,12,.95)"/>
+                  <ellipse cx="120" cy="245" rx="38" ry="22" fill="#1a1612"/>
+                  <circle cx="92" cy="232" r="14" fill="#1a1612"/>
+                </svg>
+                <div class="feature__play" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+                </div>
+              </div>
+            </div>
+            <figcaption>
+              <span class="feature__cat">Process · Loop</span>
+              <h3>Pastel layering, Stonehenge paper</h3>
+              <p>Up close: building depth from base hue to highlight, layer by layer.</p>
+            </figcaption>
+          </figure>
+
+          <!-- Tile: portrait -->
+          <figure class="feature reveal">
+            <div class="feature__media">
+              <div class="feature__art" style="background:linear-gradient(160deg,#d8c2a3,#5d4a35);">
+                <svg viewBox="0 0 200 280" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+                  <ellipse cx="100" cy="180" rx="60" ry="40" fill="#1a1612"/>
+                  <circle cx="70" cy="150" r="32" fill="#1a1612"/>
+                  <ellipse cx="62" cy="135" rx="6" ry="10" fill="#1a1612"/>
+                  <ellipse cx="78" cy="135" rx="6" ry="10" fill="#1a1612"/>
+                  <circle cx="60" cy="150" r="3" fill="#fff"/>
+                  <circle cx="80" cy="150" r="3" fill="#fff"/>
+                </svg>
+              </div>
+            </div>
+            <figcaption>
+              <span class="feature__cat">Subject</span>
+              <h3>Common Wombat</h3>
+            </figcaption>
+          </figure>
+
+          <!-- Tile: forest -->
+          <figure class="feature reveal">
+            <div class="feature__media">
+              <div class="feature__art" style="background:linear-gradient(180deg,#8a9b7c,#3a4a32);">
+                <svg viewBox="0 0 200 280" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+                  <path d="M0 280 L 200 280 L 200 180 q -25 -90 -50 -10 q -25 -100 -55 -15 q -30 -85 -55 0 q -25 -90 -40 -5 Z" fill="rgba(20,30,15,.85)"/>
+                  <circle cx="100" cy="60" r="28" fill="rgba(245,220,170,.5)"/>
+                </svg>
+              </div>
+            </div>
+            <figcaption>
+              <span class="feature__cat">Habitat</span>
+              <h3>Tasmanian rainforest</h3>
+            </figcaption>
+          </figure>
+
+          <!-- Wide tile -->
+          <figure class="feature feature--wide reveal">
+            <div class="feature__media">
+              <div class="feature__art" style="background:linear-gradient(90deg,#c89f6d,#7a4d2c,#3a2818);">
+                <svg viewBox="0 0 600 220" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+                  <path d="M0 160 q 60 -50 120 -10 q 80 -55 160 -10 q 70 -40 150 -8 q 90 -45 170 -5 L 600 220 L 0 220 Z" fill="rgba(20,15,10,.7)"/>
+                  <circle cx="500" cy="60" r="35" fill="#f5d295"/>
+                  <ellipse cx="200" cy="170" rx="34" ry="14" fill="#1a1612"/>
+                  <ellipse cx="380" cy="178" rx="28" ry="12" fill="#1a1612"/>
+                </svg>
+              </div>
+            </div>
+            <figcaption>
+              <span class="feature__cat">Series · Australia 2</span>
+              <h3>Field studies, sun-up to sunset</h3>
+              <p>Light, weather, and the way an animal moves through its country.</p>
+            </figcaption>
+          </figure>
+
+          <!-- Tile: bird -->
+          <figure class="feature reveal">
+            <div class="feature__media">
+              <div class="feature__art" style="background:linear-gradient(140deg,#e98a7c,#7a3a35);">
+                <svg viewBox="0 0 200 280" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+                  <ellipse cx="100" cy="160" rx="40" ry="32" fill="#1a1612"/>
+                  <circle cx="75" cy="140" r="22" fill="#1a1612"/>
+                  <path d="M55 138 l -15 -2 l 14 6 z" fill="#f5d295"/>
+                  <circle cx="80" cy="138" r="3" fill="#fff"/>
+                  <circle cx="100" cy="155" r="14" fill="#e98a7c"/>
+                </svg>
+              </div>
+            </div>
+            <figcaption>
+              <span class="feature__cat">Subject</span>
+              <h3>Pink Robin</h3>
+            </figcaption>
+          </figure>
+        </div>
+
+        <!-- Marquee strip -->
+        <div class="gallery">
+          <div class="gallery__wrap">
+            <div class="gallery__track">
+              <div class="gallery__item" style="background:linear-gradient(135deg,#d8c2a3,#5d4a35);">
+                <span>NSW · 02</span>
+              </div>
+              <div class="gallery__item" style="background:linear-gradient(135deg,#c5b59a,#3a2818);">
+                <span>TAS · 02</span>
+              </div>
+              <div class="gallery__item" style="background:linear-gradient(135deg,#e8c896,#7a4d2c);">
+                <span>QLD · 02</span>
+              </div>
+              <div class="gallery__item" style="background:linear-gradient(135deg,#a87a4d,#3a2818);">
+                <span>ACT · 01</span>
+              </div>
+              <div class="gallery__item" style="background:linear-gradient(135deg,#8a9b7c,#3a4a32);">
+                <span>VIC · 01</span>
+              </div>
+              <div class="gallery__item" style="background:linear-gradient(135deg,#dec5a3,#7a5d3c);">
+                <span>SA · 01</span>
+              </div>
+              <div class="gallery__item" style="background:linear-gradient(135deg,#e8a88b,#a84b2c);">
+                <span>WA · 01</span>
+              </div>
+              <div class="gallery__item" style="background:linear-gradient(135deg,#c89f6d,#5d4a35);">
+                <span>NT · 01</span>
+              </div>
+            </div>
+          </div>
+          <p class="gallery__hint">Drag horizontally to explore →</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ADVOCACY BANNER -->
+    <section class="advocacy">
+      <div class="container">
+        <p class="advocacy__text reveal">
+          As an advocate for Australian endangered species, I strive to give a
+          <span class="highlight">voice</span> to these remarkable creatures
+          teetering on the brink of extinction. Australia's unique biodiversity
+          is a source of national pride and a critical part of our planet's
+          ecological balance.
+        </p>
+      </div>
+    </section>
+
+    <!-- HELP SAVE -->
+    <section class="help" id="giving">
+      <div class="container">
+        <header class="section-head">
+          <span class="kicker">06 — Take Action</span>
+          <h2 class="section-title">
+            Help save <span class="italic">our species</span>.
+          </h2>
+          <p class="section-lede">
+            As we look around, we can observe that the world is changing rapidly.
+            Many animal species are facing extinction as a result of human
+            activities, climate change, and habitat loss.
+          </p>
+        </header>
+
+        <ol class="help__list">
+          <li class="help__item reveal">
+            <div class="help__num">01</div>
+            <h3>Reduce, Reuse, Recycle</h3>
+            <p>Minimize waste production wherever possible.</p>
+          </li>
+          <li class="help__item reveal">
+            <div class="help__num">02</div>
+            <h3>Support conservation</h3>
+            <p>Donate to or volunteer with organisations doing the work on the ground.</p>
+          </li>
+          <li class="help__item reveal">
+            <div class="help__num">03</div>
+            <h3>Be an ethical consumer</h3>
+            <p>Choose sustainable products that don't compromise habitats.</p>
+          </li>
+          <li class="help__item reveal">
+            <div class="help__num">04</div>
+            <h3>Educate &amp; share</h3>
+            <p>Educate yourself and others about endangered species.</p>
+          </li>
+          <li class="help__item reveal">
+            <div class="help__num">05</div>
+            <h3>Address climate change</h3>
+            <p>Tackle the climate impacts on vulnerable species' habitats.</p>
+          </li>
+        </ol>
+
+        <p class="help__close reveal">
+          We all have a role to play in saving our species. It is our responsibility
+          to take action and make a change. Let us join together and work towards a
+          better future for all living beings on our planet.
+          <span class="signature-line">Thank you for considering being part of rescuing our future.</span>
+          <span class="signoff">Much love from R.Fatone Illustrations — At One With Nature Art</span>
+        </p>
+      </div>
+    </section>
+
+    <!-- SHOP TEASER -->
+    <section class="shop" id="shop">
+      <div class="container">
+        <header class="section-head section-head--center">
+          <span class="kicker">07 — The Shop</span>
+          <h2 class="section-title">
+            Bring nature <span class="italic">home</span>.
+          </h2>
+          <p class="section-lede">
+            Original artworks live on through fine art prints, apparel, postcards,
+            posters, bags, stationery and more — every piece featuring Australian
+            flora and fauna.
+          </p>
+        </header>
+
+        <div class="shop__grid">
+          <a class="shop__card reveal" href="#" style="--bg:#e8d5b8">
+            <div class="shop__art">
+              <svg viewBox="0 0 100 100"><circle cx="50" cy="55" r="22" fill="#3a2818"/><circle cx="38" cy="48" r="10" fill="#3a2818"/><circle cx="35" cy="46" r="2" fill="#fff"/></svg>
+            </div>
+            <div class="shop__info">
+              <div class="shop__cat">Posters</div>
+              <h4>State-themed posters</h4>
+              <div class="shop__price">from $40</div>
+            </div>
+          </a>
+          <a class="shop__card reveal" href="#" style="--bg:#d5b89a">
+            <div class="shop__art">
+              <svg viewBox="0 0 100 100"><rect x="25" y="20" width="50" height="65" rx="3" fill="#3a2818"/><rect x="30" y="25" width="40" height="55" rx="2" fill="#e8d5b8"/></svg>
+            </div>
+            <div class="shop__info">
+              <div class="shop__cat">Books</div>
+              <h4>A Quolls Migration</h4>
+              <div class="shop__price">$20 – $35</div>
+            </div>
+          </a>
+          <a class="shop__card reveal" href="#" style="--bg:#c9b294">
+            <div class="shop__art">
+              <svg viewBox="0 0 100 100"><path d="M30 30 L70 30 L70 80 L30 80 Z" fill="#3a2818"/><path d="M35 30 q 0 -10 15 -10 q 15 0 15 10" fill="none" stroke="#3a2818" stroke-width="3"/></svg>
+            </div>
+            <div class="shop__info">
+              <div class="shop__cat">Bags</div>
+              <h4>Tote &amp; weekender bags</h4>
+              <div class="shop__price">$25 – $69</div>
+            </div>
+          </a>
+          <a class="shop__card reveal" href="#" style="--bg:#dec5a3">
+            <div class="shop__art">
+              <svg viewBox="0 0 100 100"><path d="M30 25 L70 25 L65 80 L35 80 Z" fill="#3a2818"/></svg>
+            </div>
+            <div class="shop__info">
+              <div class="shop__cat">Apparel</div>
+              <h4>Tees &amp; sweatshirts</h4>
+              <div class="shop__price">from $36</div>
+            </div>
+          </a>
+          <a class="shop__card reveal" href="#" style="--bg:#d4bf9d">
+            <div class="shop__art">
+              <svg viewBox="0 0 100 100"><rect x="20" y="30" width="60" height="40" rx="2" fill="#3a2818"/></svg>
+            </div>
+            <div class="shop__info">
+              <div class="shop__cat">Postcards</div>
+              <h4>Postcard pack</h4>
+              <div class="shop__price">$10</div>
+            </div>
+          </a>
+          <a class="shop__card reveal" href="#" style="--bg:#e0c8a4">
+            <div class="shop__art">
+              <svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="28" fill="none" stroke="#3a2818" stroke-width="3"/><circle cx="50" cy="50" r="6" fill="#3a2818"/></svg>
+            </div>
+            <div class="shop__info">
+              <div class="shop__cat">Baby</div>
+              <h4>Bodysuits, blankets &amp; bibs</h4>
+              <div class="shop__price">$18 – $48</div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <div class="footer__mark">R.F</div>
+          <div>
+            <div class="footer__name">R.Fatone Illustrations</div>
+            <div class="footer__tag">At One With Nature · Art by Rosa Fatone</div>
+          </div>
+        </div>
+
+        <nav class="footer__nav" aria-label="Footer">
+          <a href="#flora-fauna">Australian Flora &amp; Fauna</a>
+          <a href="#portfolio">Portfolio</a>
+          <a href="#reflections">Monthly Reflections</a>
+          <a href="#giving">Giving</a>
+          <a href="#shop">Shop</a>
+        </nav>
+
+        <div class="footer__social">
+          <a href="https://www.instagram.com/fatonerosalba" aria-label="Instagram" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.4a4 4 0 1 1-7.9 1 4 4 0 0 1 7.9-1Z"/><line x1="17.5" y1="6.5" x2="17.5" y2="6.5"/></svg>
+            <span>@fatonerosalba</span>
+          </a>
+          <a href="https://twitter.com/fatone_rose" aria-label="Twitter" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231 5.45-6.231Zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77Z"/></svg>
+            <span>@fatone_rose</span>
+          </a>
+          <a href="https://www.facebook.com/profile.php?id=100095362247690" aria-label="Facebook" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M9 8H6v4h3v12h5V12h3.642L18 8h-4V6.333C14 5.378 14.192 5 15.115 5H18V0h-3.808C10.596 0 9 1.583 9 4.615V8Z"/></svg>
+            <span>Facebook</span>
+          </a>
+          <a href="https://www.tiktok.com/@rfatoneillustrations" aria-label="TikTok" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5.8 20.1a6.34 6.34 0 0 0 10.86-4.43V8.91a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1.84-.34Z"/></svg>
+            <span>@rfatoneillustrations</span>
+          </a>
+          <a href="#" aria-label="Pinterest">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.162-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.099.12.112.225.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.401.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.357-.629-2.748-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24 12.017 24c6.624 0 11.99-5.367 11.99-11.987C24.007 5.367 18.641.001 12.017.001z"/></svg>
+            <span>Pinterest</span>
+          </a>
+        </nav>
+      </div>
+
+      <div class="footer__bottom">
+        <p>&copy; <span id="year"></span> R.Fatone Illustrations. All rights reserved.</p>
+        <p>Made with care, for the wild.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
